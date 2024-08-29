@@ -1,86 +1,53 @@
-<!DOCTYPE html> 
-<html>
-  <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriel Danielsson</title>
-    <style>
-
-      body {
-        background-color: #fbfaf4;
-        color: black;
-        font-family: Aptos;
-      }
-
-      /* Estilo para o container principal */
-      .container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-left: 20px;
-	#border-bottom: 1px solid #555;
-      }
-
-      img {
-        float: right;
-	 width: 400px;
-	margin-right: 60px;
-	#filter: grayscale(100%)
-      }
-      /* Estilo para cada seção */
-      .section {
-        #margin-bottom: 1px;
- 	#font-size: 0.8em;
-      }
-	.section li {
-        margin-bottom: 5px; /* Ajuste o valor conforme necessário para adicionar espaço entre os itens */
-        padding-bottom: 0px;
-        #border-bottom: 1px solid #555; /* Linha divisória entre os artigos */
-	font-size: 0.8em
-      }
-
-	h1 {
-        font-size: 2.0em; /* Tamanho da fonte */
-        #color: #ffcc00; /* Cor do texto */
-        text-align: center; /* Alinhamento do texto */
-        margin-top: 0; /* Margem superior */
-        margin-bottom: 1px; /* Margem inferior */
-        font-weight: bold; /* Peso da fonte */
-        #text-shadow: 2px 2px 4px #333; /* Sombra do texto */
-		#border-bottom: 1px solid #555
-      }
-
-
-    </style>
-
-  </head>
-  
-  <body>
-    <div class="container">
-      <h1>Gabriel Danielsson</h1>  
-	 
-      <!-- Seção sobre você -->
-      <div class="section">
-        <h2>About Me</h2>
-        Electrical Engineer currently pursuing a Master's degree in Electrical Engineering at the Federal University of Santa Maria (UFSM).<br>
-	Researcher at Center of Excellence in Energy and Power Systems (CEESP). <br>
-	My topics of study are Renewable Energies, Energy Storage, Electric Mobility, and Artificial Intelligence.
-      </div>
-
-      <div class="section">
-        <h2>CV</h2>
-	You can find my Resume/CV <a href="\site\CV\cv-resume.pdf">here</a>. <br>
-	And my Lattes <a href="http://lattes.cnpq.br/1206164422064282">here</a>.
-      </div>
-
-      <!-- Seção de contato -->
-      <div class="section">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out via <a href="mailto:gabriel.danielsson@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/gabrieldanielsson/">LinkedIn</a>.<br>
-You can find my other links <a href="https://linktr.ee/gabriel.danielsson">here</a>. </p>
-      </div>
-
-    </div>
-
-  </body>
-
-</html>
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content = "IE-edge">
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+	<link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css"/>
+	<title> Gabriel Danielsson</title>
+</head>
+<body>
+	<nav><div class = "nav__content"> 
+		<div class="logo"> <a href="#">Gabriel Danielsson</a></div>
+		<label for ="check" class = "checkbox"> 
+			<i class="ri-menu-line"> </i>
+		</label>
+		<input type ="checkbox" name="check" id="check"> 
+		<ul>
+			<li><a href="#"> Home </a> </li>
+			<li><a href="#"> About </a> </li>
+			<li><a href="\CV\resume-cv.pdf"> Resume </a> </li>
+			<li><a href="#"> Work </a> </li>
+			<li><a href="#"> Contact </a> </li>
+		</ul>
+	</div> 
+	</nav> 
+	<section class="section"> 
+		<div class="section__container">
+			<div class = "content">
+			<p class="subtitle"> Hello</p>
+			<h1 class = "title">
+				I'm <span>Gabriel<br></span>
+			</h1>
+			<p class = "description"> 
+			Electrical Engineer currently pursuing a Master's degree in Electrical Engineering at the Federal University of Santa Maria (UFSM) and a 
+			Researcher at Center of Excellence in Energy and Power Systems (CEESP).
+			My topics of study are Renewable Energies, Energy Storage, Electric Mobility and Artificial Intelligence.
+			</p>
+			<div class="action__btns">
+				<a href="https://www.linkedin.com/in/gabrieldanielsson/"> <button class = "hire__me"> LinkedIn</button> </a>
+				<a href="\CV\resume-cv.pdf"> <button class = "resume"> Resume </button> </a>
+			</div>
+			</div>
+			<div class = "image"> 
+			<img src = "C:\Users\Gabri\OneDrive\Desktop\site\Imagens\profile.2.jpeg" alt="profile"/> 
+			</div>
+		</div>
+		</section>
+</body>
+</html> 
