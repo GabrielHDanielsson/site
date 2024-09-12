@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root{
-	--primary-color: #28282B;
-	--primary-color-dark: #191970;
-	--secondary-color: #36454F;
-	--text-dark: #1f2937;
-	--text-light: #191970;
-	--extra-light: #FAF9F6;
-	--max-widht: 1200px;
+	--primary-color: #FFFFFF; /* Cor principal alterada para branco */
+	--primary-color-dark: #E0E0E0; /* Um tom mais escuro de branco */
+	--secondary-color: #B0B0B0; /* Cor secundária alterada para cinza claro */
+	--text-dark: #FFFFFF; /* Texto claro (branco) */
+	--text-light: #FFFFFF; /* Texto claro (branco) */
+	--extra-light: #000000; /* Outro tom claro de branco/cinza */
+	--background-color: #000000; /* Fundo alterado para preto */
+	--max-width: 1200px;
 }
 
 * {
@@ -29,7 +30,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: #19191a;
   z-index: 99;
 }
 
@@ -152,20 +153,21 @@ ul li a:hover {
 
 .hire__me {
   background-color: var(--primary-color);
-  color: #ffffff;
+  color: #000000;
 }
 
 .hire__me:hover {
   background-color: var(--primary-color-dark);
 }
 
-.portfolio {
-  color: var(--primary-color);
+.resume {
+  background-color: var(--primary-color);
+  color: #000000;
 }
 
-.portfolio:hover {
+.resume:hover {
   background-color: var(--primary-color-dark);
-  color: #ffffff;
+  color: #000000;
 }
 
 .image {
@@ -174,7 +176,7 @@ ul li a:hover {
 }
 
 .image img {
-  width: min(25rem, 70%);
+  width: min(25rem, 40%);
   border-radius: 100%;
 }
 
@@ -216,4 +218,8 @@ ul li a:hover {
   .action__btns {
     margin: auto;
   }
+}
+
+.white-text {
+  color: #FFFFFF;
 }
